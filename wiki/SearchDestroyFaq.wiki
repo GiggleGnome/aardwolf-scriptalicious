@@ -4,8 +4,7 @@
 
 Common questions and problems with Search and Destroy Triple Pack.  If you do not find your question here.. write a note to me.
 
-{{{board personal
-note write winklewinkle}}}
+`board personal;note write winklewinkle`
 
 = Details =
 
