@@ -19,6 +19,10 @@ a treant             - 'The Labyrinth' (14965) - citadel
 _This is because aardwolf lists Campaign targets without telling us if it's a room or area campaign.  As a result it's close to impossible to accurately detect if it's referring to the *area* The Labyrinth or the *room* The Labyrinth... so i am forced to list both._
 
 *When I get a demon school student as area campaign target, I get two every time, one listed in soh and one in sohtwo. Killing just one (in soh) gives credit for both.*
+{{{
+a demon school studen - soh
+a demon school studen - sohtwo
+}}}
 
 _This is because the area is listed as "School of Horror" which is the name of 2 areas! It could be the area "soh" or "soh2". So I list both areas for the one mobbecause there is no way to tell which one it means._
 
