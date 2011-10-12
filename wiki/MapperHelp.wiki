@@ -1,0 +1,21 @@
+#labels Aaardwolf,FAQ
+#Help on getting the most out of Fiendish's mapper plugin
+
+= Disclaimer! =
+
+Hi, I didn't write it, but i use it and leverage it in my plugin.  Fiendish's mapper plugin.  To use my triple pack you're going to want to know these fundamentals first!
+
+= To Create a Cexit (aka Custom Exit) =
+{{{
+   mapper cexit open n;;n
+}}}
+This will tell to mapper to open a door and walk through it.
+
+== DETAILED STEPS ==
+  * find a closed door north 
+  * mapper cexit open n;;n 
+  * 2 seconds, you will see a blue mapping confirm message.. 
+  * south back to the first room 
+  * the door north 
+  * the clickable map.. click on the room north of you 
+  * will see the mapper open the door and walk you through it
