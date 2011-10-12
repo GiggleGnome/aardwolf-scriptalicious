@@ -20,8 +20,8 @@ _This is because aardwolf lists Campaign targets without telling us if it's a ro
 
 *When I get a demon school student as area campaign target, I get two every time, one listed in soh and one in sohtwo. Killing just one (in soh) gives credit for both.*
 {{{
-a demon school studen - soh
-a demon school studen - sohtwo
+a demon school student - soh
+a demon school student - sohtwo
 }}}
 
 _This is because the area is listed as "School of Horror" which is the name of 2 areas! It could be the area "soh" or "soh2". So I list both areas for the one mobbecause there is no way to tell which one it means._
