@@ -25,4 +25,4 @@ This will tell to mapper to open a door and walk through it.
   * Invoke that alias and stand in the room where the portal takes you
   * Note the *listed* level of the portal (do not take tier into account)
   * Type "_mapper portal portal_losttime_" (for example), when prompted, type in the portal level
-* Done!  Now Mapper will take your portals and level into consideration when calculating the fastest path!
+  * Done!  Now Mapper will take your portals and level into consideration when calculating the fastest path!
