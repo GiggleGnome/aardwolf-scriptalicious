@@ -7,10 +7,11 @@ Common questions and problems with Search and Destroy Triple Pack.  If you do no
 `board personal;note write winklewinkle`
 
 = Questions =
-*I get two listings for the same mob.  When i kill one of them, the other one disappears:*
+*I get two listings for the same mob.  When i kill one of them, the other one disappears:
+a treant             - labyrinth
+a treant             - 'The Labyrinth' (14965) - citadel*
 
-{{{a treant             - labyrinth
-a treant             - 'The Labyrinth' (14965) - citadel}}}
+_This is because aardwolf lists Campaign targets without telling us if it's a room or area campaign.  As a result it's close to impossible to accurately detect if it's referring to the *area* The Labyrinth or the *room* The Labyrinth... so i am forced to list both._
 
 *When I get a demon school student as area campaign target, I get two every time, one listed in soh and one in sohtwo. Killing just one (in soh) gives credit for both.*
 
