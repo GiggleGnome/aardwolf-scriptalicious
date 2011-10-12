@@ -7,9 +7,9 @@ Common questions and problems with Search and Destroy Triple Pack.  If you do no
 `board personal;note write winklewinkle`
 
 = Questions =
-*I get two listings for the same mob.  When i kill one of them, the other one disappears:
-{{{a treant             - labyrinth
-a treant             - 'The Labyrinth' (14965) - citadel}}}
+*I get two listings for the same mob.  When i kill one of them, the other one disappears:*
+`a treant             - labyrinth
+a treant             - 'The Labyrinth' (14965) - citadel`
 
 *When I get a demon school student as area campaign target, I get two every time, one listed in soh and one in sohtwo. Killing just one (in soh) gives credit for both.*
 
