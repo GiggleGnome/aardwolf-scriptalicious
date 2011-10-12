@@ -4,12 +4,17 @@
 
 Common questions and problems with Search and Destroy Triple Pack.  If you do not find your question here.. write a note to me.
 
-`board personal;note write winklewinkle`
+{{{
+board personal
+note write winklewinkle
+}}}
 
 = Questions =
-*I get two listings for the same mob.  When i kill one of them, the other one disappears:
-a treant             - labyrinth
-a treant             - 'The Labyrinth' (14965) - citadel*
+*I get two listings for the same mob.  When i kill one of them, the other one disappears: (for example)*
+{{{
+a treant             - labyrinth*
+a treant             - 'The Labyrinth' (14965) - citadel
+}}}
 
 _This is because aardwolf lists Campaign targets without telling us if it's a room or area campaign.  As a result it's close to impossible to accurately detect if it's referring to the *area* The Labyrinth or the *room* The Labyrinth... so i am forced to list both._
 
