@@ -1,4 +1,4 @@
-#labels Aaardwolf,FAQ
+#labels Aaardwolf,FAQ,plugin
 #Help on getting the most out of Fiendish's mapper plugin
 
 = Disclaimer! =
@@ -13,9 +13,16 @@ This will tell to mapper to open a door and walk through it.
 
 == DETAILED STEPS ==
   * find a closed door north 
-  * mapper cexit open n;;n 
-  * 2 seconds, you will see a blue mapping confirm message.. 
-  * south back to the first room 
-  * the door north 
-  * the clickable map.. click on the room north of you 
-  * will see the mapper open the door and walk you through it
+  * type _mapper cexit open n;;n_
+  * wait 2 seconds, you will see a blue mapping confirm message.. 
+  * go south back to the first room 
+  * close the door north 
+  * on the clickable map.. click on the room north of you 
+  * you will see the mapper open the door and walk you through it
+
+= To Add a Portal to your Mapper = 
+  * Have an alias that gets the portal out of your bag, holds it, enters it, puts the portal back in your bag, and re-holds whatever you were holding. (_ in this example we will use one called "portal_losttime"_)
+  * Invoke that alias and stand in the room where the portal takes you
+  * Note the *listed* level of the portal (do not take tier into account)
+  * Type "_mapper portal portal_losttime_" (for example), when prompted, type in the portal level
+* Done!  Now Mapper will take your portals and level into consideration when calculating the fastest path!
