@@ -5,13 +5,14 @@
 
 Hi, I didn't write it, but i use it and leverage it in my plugin.  Fiendish's mapper plugin.  To use my triple pack you're going to want to know these fundamentals first!
 
-= To Create a Cexit (aka Custom Exit) =
+= Creating CExits (aka Custom Exits) =
+== To open a door ==
 {{{
    mapper cexit open n;;n
 }}}
 This will tell to mapper to open a door and walk through it.
 
-== DETAILED STEPS ==
+=== DETAILED STEPS ===
   * find a closed door north 
   * type _mapper cexit open n;;n_
   * wait 2 seconds, you will see a blue mapping confirm message.. 
@@ -19,6 +20,18 @@ This will tell to mapper to open a door and walk through it.
   * close the door north 
   * on the clickable map.. click on the room north of you 
   * you will see the mapper open the door and walk you through it
+
+== To get into tricky areas ==
+Some areas require CExits to get into them.. and excellent example is "First Ascent"
+
+  * Go to the Aylor room "GreyAsh Alley to Silvermist Road" (type *mapper goto 32529*)
+  * type *exits*  to see the command for the custom exit (in this case it's *climb the chain*)
+  * type *mapper cexit climb the chain*
+  * wait 2 seconds for mapper to confirm the room
+
+=== To test ===
+  * recall
+  * type *xrt first*
 
 = To Add a Portal to your Mapper = 
   * Have an alias that gets the portal out of your bag, holds it, enters it, puts the portal back in your bag, and re-holds whatever you were holding. (_ in this example we will use one called "portal_losttime"_)
