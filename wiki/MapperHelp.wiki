@@ -10,7 +10,7 @@ Hi, I didn't write it, but I use it and leverage it in my plugin.  *Fiendish's m
 {{{
    mapper cexit open n;;n
 }}}
-This will tell to mapper to open a door and walk through it.
+This will *teach* to mapper to open a door and walk through it.
 
 === Detailed Steps ===
   * find a closed door north 
