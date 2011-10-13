@@ -24,7 +24,13 @@ This will *teach* to mapper to open a door and walk through it.
   * you will see the mapper open the door and walk you through it
 
 == To get into tricky/annoying areas ==
-Some areas require CExits to get into them.. and excellent example is "First Ascent".  Type *speedwalk* for a full list of areas with cexits.
+Some areas require CExits to get into them.. and excellent example is "First Ascent".  To see First Acent's speedwalk with cexit type *speedwalk first*
+{{{
+Area Name                       Speedwalk 
+The First Ascent                run 19s4w;climb the chain
+}}}
+
+Type *speedwalk* for a full list of areas with cexits.
 
 === Detailed Steps ===
   * Go to the Aylor room `GreyAsh Alley to Silvermist Road` (type *mapper goto 32529*)
