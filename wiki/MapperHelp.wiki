@@ -33,7 +33,7 @@ The First Ascent                run 19s4w;climb the chain
 Type *speedwalk* for a full list of areas with cexits.
 
 === Detailed Steps ===
-  * Go to the Aylor room `GreyAsh Alley to Silvermist Road` (type *mapper goto 32529*)
+  * Go to the Aylor room `GreyAsh Alley to Silvermist Road` (from Recall type *run 19s4w*)
   * type *exits*  to see the command for the custom exit (in this case it's *climb the chain*)
   * type *mapper cexit climb the chain*
   * wait 2 seconds for mapper to confirm the room
