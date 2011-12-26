@@ -48,3 +48,33 @@ Type *speedwalk* for a full list of areas with cexits.
   * Note the *listed* level of the portal (do not take tier into account)
   * Type *mapper portal portal_losttime* (for example), when prompted, type in the portal level
   * Done!  Now Mapper will take your portals and level into consideration when calculating the fastest path!
+
+== Making a basic portal alias ==
+
+*You will NEED to change "bag", "hold/dual" and "myOldItem" for this to work!*
+
+{{{
+<aliases>
+  <alias
+   match="port *"
+   enabled="y"
+   expand_variables="y"
+   ignore_case="y"
+   sequence="100"
+  >
+  <send>get '%1' bag
+hold '%1'
+enter
+hold/dual myOldItem
+put '%1' bag</send>
+  </alias>
+</aliases>
+}}}
+
+=== Usage ===
+The following would work for mapping an envelope of xyl portal
+  1) go to the portal destination
+  2) type
+{{{
+mapper portal port envelope
+}}}
